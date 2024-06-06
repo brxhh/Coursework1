@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+body, html {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #333333;
+    color: #c6a210;
+    padding: 0;
+    margin: 0;
+}
+
+
+.main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ffd200;
+}
+
+.main form {
+    margin-top: 20px;
+}
+
+.main input[type="text"],
+.main input[type="password"],
+.main button[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    background: #262e49;
+    border: 0;
+    border-radius: 5px;
+    padding: 14px 10px;
+    width: 320px;
+    outline: none;
+    color: #d6d6d6;
+    transition: all .2s ease-out;
+}
+
+.main input[type="text"]::placeholder,
+.main input[type="password"]::placeholder {
+    color: #565f79;
+}
+
+.main input[type="text"]:focus,
+.main input[type="password"]:focus {
+    border: 1px solid #79A6FE;
+}
+
+
+.main button[type="submit"] {
+    background-color: #7f5feb;
+    color: #dfdeee;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.main button[type="submit"]:hover {
+    background-color: #5d33e6;
+}
+.main input[type="email"] {
+    display: block;
+    margin: 10px auto;
+    background: #262e49;
+    border: 0;
+    border-radius: 5px;
+    padding: 14px 10px;
+    width: 320px;
+    outline: none;
+    color: #d6d6d6;
+    transition: all .2s ease-out;
+}
+
+.main input[type="email"]::placeholder {
+    color: #565f79;
+}
+
+
+.main input[type="email"]:focus {
+    border: 1px solid #79A6FE;
+}
+
