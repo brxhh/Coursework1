@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Montserrat, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
@@ -10,13 +10,43 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    max-width: 800px;
+    margin: auto;
     padding: 20px;
-    border-radius: 5px;
+    background-color: #292929;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 400px;
-    width: 100%;
+}
+
+header {
+    background-color: #ffd200;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn-custom {
+    background-color: #c6a210;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+     background-color: #c6a210;
+    color: white;
+}
+
+.btn-custom-outline {
+    background-color: #292929;
+    border: 1px solid #c6a210;
+    color: #c6a210;
+    transition: all 0.3s ease;
+}
+
+.btn-custom-outline:hover {
+    background-color: #c6a210;
+    color: #292929;
 }
 
 h2 {
@@ -38,21 +68,44 @@ label {
     box-sizing: border-box;
 }
 
-button[type="submit"] {
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-button[type="submit"]:hover {
-    background-color: #45a049;
-}
-
 p.error {
     color: red;
     margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+body {
+    background-color: #333333;
+}
+
+.story {
+    background-color: #ffd200;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-input {
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
     margin-bottom: 15px;
 }
